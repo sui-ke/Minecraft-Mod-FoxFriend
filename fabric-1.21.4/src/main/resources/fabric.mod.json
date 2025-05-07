@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "suikefoxfriend",
+	"version": "4.1",
+	"name": "Fox Friend",
+	"description": "",
+	"authors": [
+		"sui_ke"
+	],
+	"license": "MIT",
+	"icon": "assets/suikefoxfriend/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"suike.suikefoxfriend.SuiKe"
+		]
+	},
+	"mixins": [
+		"suikefoxfriend.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": ">=1.21.2  <=1.21.4",
+		"java": "*",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
