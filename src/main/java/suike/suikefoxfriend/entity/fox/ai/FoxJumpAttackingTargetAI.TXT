@@ -1,0 +1,26 @@
+/*package suike.suikefoxfriend.entity.fox.ai;
+
+import suike.suikefoxfriend.entity.fox.FoxEntity;
+
+import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.ai.EntityAINearestAttackableTarget;
+
+public class FoxJumpAttackingTargetAI<T extends EntityLivingBase> extends EntityAINearestAttackableTarget<T> {
+    private final FoxEntity fox;
+
+    public FoxJumpAttackingTargetAI(FoxEntity fox, Class<T> classTarget, boolean checkSight) {
+        super(fox, classTarget, checkSight);
+        this.fox = fox;
+    }
+
+    @Override
+    public boolean shouldContinueExecuting() {
+        // System.out.println("是否在攻击状态: " + this.fox.isJumpAttack());
+        // System.out.println("距离目标" + this.fox.getDistance(this.targetEntity));
+        // 跳跃攻击 || 距离 <=4 格
+        if (this.fox.isJumpAttack() || this.fox.getDistance(this.targetEntity) <= 4.0) {
+            return false;
+        }
+        return super.shouldContinueExecuting();
+    }
+}*/

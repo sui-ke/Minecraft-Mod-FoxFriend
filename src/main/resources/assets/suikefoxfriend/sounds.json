@@ -1,0 +1,215 @@
+{
+    "entity.fox.aggro": {
+        "sounds": [
+            {
+                "name": "suikefoxfriend:entity/fox/aggro1",
+                "volume": 0.65
+            },
+            {
+                "name": "suikefoxfriend:entity/fox/aggro2",
+                "volume": 0.65
+            },
+            {
+                "name": "suikefoxfriend:entity/fox/aggro3",
+                "volume": 0.65
+            },
+            {
+                "name": "suikefoxfriend:entity/fox/aggro4",
+                "volume": 0.65
+            },
+            {
+                "name": "suikefoxfriend:entity/fox/aggro5",
+                "volume": 0.65
+            },
+            {
+                "name": "suikefoxfriend:entity/fox/aggro6",
+                "volume": 0.65
+            },
+            {
+                "name": "suikefoxfriend:entity/fox/aggro7",
+                "volume": 0.65
+            }
+        ],
+        "subtitle": "subtitles.entity.fox.aggro"
+    },
+    "entity.fox.ambient": {
+        "sounds": [
+            {
+                "name": "suikefoxfriend:entity/fox/idle1",
+                "volume": 0.8
+            },
+            "suikefoxfriend:entity/fox/idle2",
+            "suikefoxfriend:entity/fox/idle3",
+            "suikefoxfriend:entity/fox/idle4",
+            "suikefoxfriend:entity/fox/idle5",
+            "suikefoxfriend:entity/fox/idle6"
+        ],
+        "subtitle": "subtitles.entity.fox.ambient"
+    },
+    "entity.fox.bite": {
+        "sounds": [
+            {
+                "name": "suikefoxfriend:entity/fox/bite1",
+                "pitch": 1.1,
+                "volume": 0.6
+            },
+            {
+                "name": "suikefoxfriend:entity/fox/bite2",
+                "pitch": 1.1,
+                "volume": 0.6
+            },
+            {
+                "name": "suikefoxfriend:entity/fox/bite3",
+                "pitch": 1.1,
+                "volume": 0.6
+            }
+        ],
+        "subtitle": "subtitles.entity.fox.bite"
+    },
+    "entity.fox.death": {
+        "sounds": [
+            {
+                "name": "suikefoxfriend:entity/fox/death1",
+                "volume": 0.9
+            },
+            {
+                "name": "suikefoxfriend:entity/fox/death2",
+                "volume": 0.9
+            }
+        ],
+        "subtitle": "subtitles.entity.fox.death"
+    },
+    "entity.fox.eat": {
+        "sounds": [
+            {
+                "name": "suikefoxfriend:entity/fox/eat1",
+                "volume": 0.65
+            },
+            {
+                "name": "suikefoxfriend:entity/fox/eat2",
+                "volume": 0.65
+            },
+            {
+                "name": "suikefoxfriend:entity/fox/eat3",
+                "volume": 0.65
+            }
+        ],
+        "subtitle": "subtitles.entity.fox.eat"
+    },
+    "entity.fox.hurt": {
+        "sounds": [
+            {
+                "name": "suikefoxfriend:entity/fox/hurt1",
+                "volume": 0.75
+            },
+            {
+                "name": "suikefoxfriend:entity/fox/hurt2",
+                "volume": 0.75
+            },
+            {
+                "name": "suikefoxfriend:entity/fox/hurt3",
+                "volume": 0.75
+            },
+            {
+                "name": "suikefoxfriend:entity/fox/hurt4",
+                "volume": 0.75
+            }
+        ],
+        "subtitle": "subtitles.entity.fox.hurt"
+    },
+    "entity.fox.screech": {
+        "sounds": [
+            {
+                "attenuation_distance": 32,
+                "name": "suikefoxfriend:entity/fox/screech1",
+                "volume": 0.45
+            },
+            {
+                "attenuation_distance": 32,
+                "name": "suikefoxfriend:entity/fox/screech2",
+                "volume": 0.45
+            },
+            {
+                "attenuation_distance": 32,
+                "name": "suikefoxfriend:entity/fox/screech3",
+                "volume": 0.45
+            },
+            {
+                "attenuation_distance": 32,
+                "name": "suikefoxfriend:entity/fox/screech4",
+                "volume": 0.4
+            }
+        ],
+        "subtitle": "subtitles.entity.fox.screech"
+    },
+    "entity.fox.sleep": {
+        "sounds": [
+            {
+                "name": "suikefoxfriend:entity/fox/sleep1",
+                "volume": 0.8
+            },
+            {
+                "name": "suikefoxfriend:entity/fox/sleep2",
+                "volume": 0.8
+            },
+            {
+                "name": "suikefoxfriend:entity/fox/sleep3",
+                "volume": 0.8
+            },
+            {
+                "name": "suikefoxfriend:entity/fox/sleep4",
+                "volume": 0.8
+            },
+            {
+                "name": "suikefoxfriend:entity/fox/sleep5",
+                "volume": 0.8
+            }
+        ],
+        "subtitle": "subtitles.entity.fox.sleep"
+    },
+    "entity.fox.sniff": {
+        "sounds": [
+            {
+                "name": "suikefoxfriend:entity/fox/sniff1",
+                "volume": 0.6
+            },
+            {
+                "name": "suikefoxfriend:entity/fox/sniff2",
+                "volume": 0.6
+            },
+            {
+                "name": "suikefoxfriend:entity/fox/sniff3",
+                "volume": 0.6
+            },
+            {
+                "name": "suikefoxfriend:entity/fox/sniff4",
+                "volume": 0.6
+            }
+        ],
+        "subtitle": "subtitles.entity.fox.sniff"
+    },
+    "entity.fox.spit": {
+        "sounds": [
+            {
+                "name": "suikefoxfriend:entity/fox/spit1",
+                "volume": 0.7
+            },
+            {
+                "name": "suikefoxfriend:entity/fox/spit2",
+                "volume": 0.7
+            },
+            {
+                "name": "suikefoxfriend:entity/fox/spit3",
+                "volume": 0.7
+            }
+        ],
+        "subtitle": "subtitles.entity.fox.spit"
+    },
+    "entity.fox.teleport": {
+        "sounds": [
+            "mob/endermen/portal",
+            "mob/endermen/portal2"
+        ],
+        "subtitle": "subtitles.entity.fox.teleport"
+    }
+}

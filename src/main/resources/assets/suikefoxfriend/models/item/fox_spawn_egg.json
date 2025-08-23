@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "suikefoxfriend:items/fox_spawn_egg"
+    }
+}

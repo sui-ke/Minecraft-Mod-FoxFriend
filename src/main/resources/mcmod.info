@@ -1,0 +1,12 @@
+[
+  {
+    "modid": "suikefoxfriend",
+    "name": "FoxFriend",
+    "version": "1.0.7",
+    "mcversion": "1.12.2",
+    "logoFile": "",
+    "url": "MC百科: https://www.mcmod.cn/class/19114.html",
+    "authorList": ["sui_ke"],
+    "description": "为 1.12.2 添加狐狸；Add Fox to 1.12.2。"
+  }
+]

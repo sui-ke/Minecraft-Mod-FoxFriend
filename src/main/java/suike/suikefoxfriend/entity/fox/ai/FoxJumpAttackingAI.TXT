@@ -1,0 +1,81 @@
+/*package suike.suikefoxfriend.entity.fox.ai;
+
+import suike.suikefoxfriend.entity.fox.FoxEntity;
+
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.ai.EntityAIAttackMelee;
+
+public class FoxJumpAttackingAI extends EntityAIAttackMelee {
+    private final FoxEntity fox;
+    private boolean isJumpAttacking = false;
+
+    public FoxJumpAttackingAI(FoxEntity fox, double speed, boolean useLongMemory) {
+        super(fox, 0.8D, useLongMemory);
+        this.fox = fox;
+    }
+
+    @Override
+    protected void checkAndPerformAttack(EntityLivingBase enemy, double distToEnemySqr) {
+        if (this.isJumpAttacking) {
+            this.jumpAttack(enemy);
+            return;
+        }
+
+        double reach = this.getAttackReachSqr(enemy);
+        if (distToEnemySqr <= reach && this.attackTick <= 0) {
+            // 距离 <=4 格
+            // 10% 概率触发跳跃攻击
+            if (distToEnemySqr <= 16.0D && distToEnemySqr >= 12.0D && !this.isJumpAttacking && fox.getRandom().nextFloat() < 0.1F) {
+                // 触发跳跃攻击
+                this.isJumpAttacking = true;
+                this.fox.setJumpAttack();
+                this.jumpAttack(enemy);
+            } else {
+                // 普通攻击
+                super.checkAndPerformAttack(enemy, distToEnemySqr);
+            }
+        }
+    }
+
+    private void jumpAttack(EntityLivingBase enemy) {
+        // 设置跳跃向量
+        double dx = enemy.posX - fox.posX;
+        double dz = enemy.posZ - fox.posZ;
+        double dist = Math.sqrt(dx * dx + dz * dz);
+        double strength = Math.min(1.2, 0.6 + dist * 0.15);
+        this.fox.motionX = dx / dist * strength;
+        this.fox.motionZ = dz / dist * strength;
+        this.fox.motionY = 0.45; // 跳跃高度
+    }
+
+    @Override
+    public void updateTask() {
+        super.updateTask();
+
+        if (this.isJumpAttacking) {
+            // 在空中时禁用摔落伤害
+            if (!this.fox.onGround) {
+                this.fox.fallDistance = 0;
+            }
+            // 落地后结束攻击
+            else {
+                EntityLivingBase target = this.attacker.getAttackTarget();
+                // 如果落地时在攻击范围内，造成伤害
+                if (target != null && this.fox.getDistance(target) < 0.8) {
+                    this.fox.attackEntityAsMob(target);
+                }
+
+                this.isJumpAttacking = false;
+                this.fox.setIdling();
+            }
+        }
+    }
+
+    @Override
+    public void resetTask() {
+        super.resetTask();
+        this.isJumpAttacking = false;
+        this.fox.setIdling();
+    }
+}*/

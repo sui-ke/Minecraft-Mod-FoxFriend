@@ -1,0 +1,31 @@
+package suike.suikefoxfriend.mixin;
+
+import suike.suikefoxfriend.entity.fox.FoxEntity;
+
+import thedarkcolour.futuremc.block.villagepillage.SweetBerryBushBlock;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.state.IBlockState;
+import net.minecraft.world.World;
+import net.minecraft.entity.Entity;
+import net.minecraft.util.math.BlockPos;
+
+import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.injection.At;
+import org.spongepowered.asm.mixin.injection.Inject;
+import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+
+@Mixin(SweetBerryBushBlock.class)
+public abstract class SweetBerryBushBlockMixin {
+    @Inject(
+        method = "onEntityCollision(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V",
+        at = @At("HEAD"),
+        cancellable = true,
+        remap = false
+    )
+    private void onEntityCollisionMixin(World world, BlockPos pos, IBlockState state, Entity entity, CallbackInfo ci) {
+        if (entity instanceof FoxEntity) {
+            ci.cancel();
+        }
+    }
+}

@@ -1,0 +1,15 @@
+item.suikefoxfriend.fox_spawn_egg.name=刷怪蛋 狐狸
+
+entity.fox.name=狐狸
+
+subtitles.entity.fox.aggro=狐狸: 愤怒
+subtitles.entity.fox.ambient=狐狸: 吱吱叫
+subtitles.entity.fox.bite=狐狸: 撕咬
+subtitles.entity.fox.death=狐狸: 死亡
+subtitles.entity.fox.eat=狐狸: 进食
+subtitles.entity.fox.hurt=狐狸: 受伤
+subtitles.entity.fox.screech=狐狸: 尖声叫
+subtitles.entity.fox.sleep=狐狸: 打鼾
+subtitles.entity.fox.sniff=狐狸: 嗅探
+subtitles.entity.fox.spit=狐狸: 吐出
+subtitles.entity.fox.teleport=狐狸: 传送

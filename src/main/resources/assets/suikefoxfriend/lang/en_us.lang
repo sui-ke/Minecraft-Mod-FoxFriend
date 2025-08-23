@@ -1,0 +1,15 @@
+item.suikefoxfriend.fox_spawn_egg.name=Spawn Eggs Fox
+
+entity.fox.name=fox
+
+subtitles.entity.fox.aggro=Fox angers
+subtitles.entity.fox.ambient=Fox squeaks
+subtitles.entity.fox.bite=Fox bites
+subtitles.entity.fox.death=Fox dies
+subtitles.entity.fox.eat=Fox eats
+subtitles.entity.fox.hurt=Fox hurts
+subtitles.entity.fox.screech=Fox screeches
+subtitles.entity.fox.sleep=Fox snores
+subtitles.entity.fox.sniff=Fox sniffs
+subtitles.entity.fox.spit=Fox spits
+subtitles.entity.fox.teleport=Fox teleports
