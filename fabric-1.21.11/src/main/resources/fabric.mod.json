@@ -3,9 +3,9 @@
 	"id": "suikefoxfriend",
 	"version": "5.1",
 	"name": "Fox Friend",
-	"description": "Mod originally buy by sui_ke, (painfully) updated to 1.21.11 by Suny",
+	"description": "",
 	"authors": [
-		"sui_ke", "Suny"
+		"sui_ke"
 	],
 	"license": "MIT",
 	"icon": "assets/suikefoxfriend/icon.png",
@@ -27,4 +27,5 @@
 	"suggests": {
 		"another-mod": "*"
 	}
+
 }
