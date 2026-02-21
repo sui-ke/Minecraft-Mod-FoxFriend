@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "suikefoxfriend",
+	"version": "6.0.2",
+	"name": "Fox Friend",
+	"description": "",
+	"authors": [
+		"sui_ke"
+	],
+	"license": "MIT",
+	"icon": "assets/suikefoxfriend/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"suike.suikefoxfriend.SuiKe"
+		]
+	},
+	"mixins": [
+		"suikefoxfriend.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": ">=1.18 <=1.21.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "suike.suikefoxfriend.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"FoxEntityMixin",
+		"FoxEntityNbtMixin",
+		"FleeEntityGoalMixin",
+		"ActiveTargetGoalMixin",
+		"ServerEntityManagerMixin",
+		"MobEntityAccessor",
+		"LivingEntityAccessor"
+	],
+	"injectors": { "defaultRequire": 1 }
+}
